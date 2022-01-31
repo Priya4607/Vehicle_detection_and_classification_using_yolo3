@@ -1,0 +1,9 @@
+[Default]
+class_index = [2, 3, 5, 7, 8]
+config_path = "yolov3-320.cfg"
+weights_path = "yolov3-320.weights"
+labels_path = "coco.names"
+#input_path = "sample.jpeg"
+input_path = "sample.mp4"
+threshold = 0.5 #optional
+confidence = 0.3 #optional
