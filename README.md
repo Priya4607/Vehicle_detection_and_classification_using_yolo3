@@ -6,7 +6,6 @@ A simple demonstration of real-time vehicle detection and classification using Y
 <div style="text-align:center">
   <figure>
     <img src=./asset/output.gif>
-     <figcaption>Predictions on a sample video</figcaption>
   <figure>
 </div>
 
@@ -30,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-Download yolo3 model configuration (yolov3.cfg), weights (yolov3.weights), labels (coco.names) from [YOLO]("https://pjreddie.com/darknet/yolo/").
+Download yolo3 model configuration (yolov3.cfg), weights (yolov3.weights), labels (coco.names) from [YOLO](https://pjreddie.com/darknet/yolo/).
 Add the above paths along with image/video path in the config.toml file (an example configuration file has been added in the repository).
 Default value for threshold and confidence is 0.5 and 0.3 respectively.
 
@@ -44,11 +43,10 @@ python make_predictions.py
 <div style="text-align:center">
   <figure>
     <img src=./asset/output.jpg>
-     <figcaption>Predictions on a static image</figcaption>
   <figure>
 </div>
 
 ## Acknowledgements
 
-This project is inspired by [yolo-object-detection]("https://www.thepythoncode.com/article/yolo-object-detection-with-opencv-and-pytorch-in-python").
+This project is inspired by [yolo-object-detection](https://www.thepythoncode.com/article/yolo-object-detection-with-opencv-and-pytorch-in-python).
 
